@@ -1,42 +1,37 @@
 # RCE Shell Payloads
 
-![RCE Shell Logo](link/to/logo.png) <!-- Optional: Include a logo or banner image -->
+![RCE Shell Logo](link/to/logo.png)
 
-A diverse collection of Remote Code Execution (RCE) shell payloads for penetration testing and security research purposes.
+A comprehensive collection of Remote Code Execution (RCE) shell payloads tailored for penetration testing and security research.
 
 ## Table of Contents
 
 - [Description](#description)
 - [Features](#features)
 - [Usage](#usage)
-- [Installation](#installation)
 - [Payloads](#payloads)
+- [Disclaimer](#disclaimer)
 - [Contributing](#contributing)
+- [Maintainers](#maintainers)
+- [Author](#author)
 - [License](#license)
 - [Contact](#contact)
 
 ## Description
 
-This repository hosts a comprehensive collection of RCE shell payloads designed for assessing the security of web applications. These payloads serve as a valuable resource for penetration testers, security researchers, and developers seeking to understand and address potential vulnerabilities associated with code execution.
+Welcome to the RCE Shell Payloads repository – a curated compilation designed to empower security professionals, penetration testers, and developers in fortifying web applications against potential vulnerabilities associated with code execution.
 
 **Disclaimer: Unauthorized use of these payloads is strictly prohibited. Use responsibly and in compliance with applicable laws and regulations.**
 
 ## Features
 
-- **Diversity**: Various RCE payloads for different scenarios.
-- **Web-based Shells**: Payloads in different languages (PHP, ASP, JSP, Python, etc.).
-- **Environment Compatibility**: Payloads suitable for different web servers and environments.
+- **Diversity**: A rich spectrum of RCE payloads tailored for diverse scenarios.
+- **Web-based Shells**: Payloads crafted in various languages (PHP, ASP, JSP, Python, etc.).
+- **Environment Compatibility**: Payloads compatible with different web servers and environments.
 
 ## Usage
 
-Feel free to use and modify these payloads for legitimate security testing. Always ensure that you have proper authorization before testing any system. To download a payload, use the following example command:
-
-```bash
-curl -O https://raw.githubusercontent.com/shubham-rooter/RCE-Shell-Paylods/main/2-rce.svg
-```
-## Installation
-
-No specific installation is required. Simply download the desired payload using the provided links or clone the entire repository:
+Feel free to incorporate and customize these payloads for legitimate security testing. Always prioritize proper authorization before initiating any system tests. To download a payload, employ the following example command:
 
 ```bash
 git clone https://github.com/shubham-rooter/RCE-Shell-Paylods.git
